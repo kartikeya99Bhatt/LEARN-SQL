@@ -1,0 +1,21 @@
+DAY 1:
+
+Create Table Employee(
+Name Varchar(10),
+Id int,
+DOB Date,
+Salary int,
+Age Float);
+
+Select *from Employee;
+Insert into Employee
+(Name,Id, DOB, Salary, Age) values 
+("Kartikeya",1,'2000-06-13',300000,20),
+("Shruti",2, '2001-07-15', 30000,40),
+("Anali",3, "1098-09-02", 7000000,18);
+
+
+select * from Employee;
+
+
+DAY 2:
